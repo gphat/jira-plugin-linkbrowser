@@ -1,4 +1,4 @@
-You have successfully created a plugin using the JIRA plugin archetype!
+jira-plugin-linkbrowser is a JIRA Issue Tab plugin that lists all JIRA links in one place.
 
 Here are the SDK commands you'll use immediately:
 
