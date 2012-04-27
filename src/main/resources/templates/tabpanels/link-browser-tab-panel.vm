@@ -1,0 +1,10 @@
+<table style="width: 100%; border-bottom: 1px solid #dddddd;">
+ <tr>
+  <td width="5%">$link.getLinkType()</td>
+  <td width="5%"><img src="$req.contextPath/$link.getIssueTypeUrl()"></td>
+  <td width="10%"><a href="$req.contextPath/browse/$link.getKey()">$link.getKey()</a></td>
+  <td width="65%">$link.getSummary()</td>
+  <td width="2%"><img src="$req.contextPath/$link.getPriorityUrl()"></td>
+  <td width="2%"><img src="$req.contextPath/$link.getStatusUrl()"></td>
+ </tr>
+</table>

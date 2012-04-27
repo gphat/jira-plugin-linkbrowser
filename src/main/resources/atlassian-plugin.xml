@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
+  <plugin-info>
+    <description>${project.description}</description>
+    <version>${project.version}</version>
+    <vendor name="${project.organization.name}" url="${project.organization.url}"/>
+  </plugin-info>
+  <resource type="i18n" name="i18n" location="com.iinteractive.jira.plugins.linkbrowser"/>
+  <issue-tabpanel key="link-browser-tab-panel" name="Link Browser Tab Panel" i18n-name-key="link-browser-tab-panel.name" class="com.iinteractive.jira.plugins.tabpanels.LinkBrowserTabPanel">
+    <description key="link-browser-tab-panel.description">The Link Browser Tab Panel Plugin</description>
+    <label key="link-browser-tab-panel.label"></label>
+    <order>50</order>
+    <resource type="velocity" name="view" location="templates/tabpanels/link-browser-tab-panel.vm"/>
+  </issue-tabpanel>
+</atlassian-plugin>
